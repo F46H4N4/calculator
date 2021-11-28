@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<div class="row">
+<body class="body">
+    <input type="text" id="result" name="result" placeholder="result"><br><br>
+    <div class="col1">
+<input class="buttondigits" type="button" value="7" onclick=" displayValue('7')">
+       <input class="buttondigits" type="button" value="8" onclick=" displayValue('8')">
+       <input class="buttondigits" type="button" value="9" onclick=" displayValue('9')">
+       <input class="buttonmathButtons" type="button" value="+ "onclick=" displayValue('+')">
+       </div>
+       <br>
+       <div>
+       <input class="buttondigits" type="button" value="4" onclick=" displayValue('4')">
+       <input class="buttondigits" type="button" value='5' onclick= "displayValue('5')">
+       <input class="buttondigits" type="button" value="6" onclick= "displayValue('6')">
+       <input class="buttonmathButtons" type="button" value="-" onclick= "displayValue('-')">
+    </div>
+       <br>
+       <div>
+       <input class="buttondigits" type="button" value="1" onclick=" displayValue('1')">
+       <input class="buttondigits" type="button" value="2"onclick=" displayValue('2')">
+       <input class="buttondigits" type="button" value="3" onclick=" displayValue('3')">
+       <input class="buttonmathButtons" type="button" value="x" onclick=" displayValue('*')">
+    </div>
+       <br>
+       <div>
+       <input id="clearButton" class="button" type="button" value="C" onclick="clearBox()">
+       <input class="buttondigits" type="button" value="0" onclick=" displayValue('0')">
+       <input class="buttonmathButtons" type="button" value="=" onclick=" evaluateExpression()">
+       <input class="buttonmathButtons" type="button" value="/" onclick="displayValue('/')">
+       <input class="buttonmathButtons" type="button" value=">" onclick="removeElement()">
+    </div>
+</div>
+</body>
+
+</html>
